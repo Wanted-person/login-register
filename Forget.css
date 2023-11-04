@@ -20,9 +20,11 @@ section
     height: 100vh; 
     background-size: cover;
     background-position: center;
-    background-image:url("bg1.jpg");
+    background-image:url("bg3.jpg");
     animation: animatebg1 5s linear infinite;
 }
+
+
 @keyframes animatebg1{
     100%{
         filter: hue-rotate(360deg);
@@ -30,8 +32,8 @@ section
 }
 .login-box{
     position: relative;
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 450px;
     background:transparent;
     border: 2px solid rgba(96, 11, 194, 0.5);
     border-radius: 20px;
@@ -42,22 +44,22 @@ section
 }
 h2{
     font-size: 2em;
-    color: rgb(229, 236, 239);
+    color: rgb(247, 250, 252);
     text-align: center;
 }
 .input-box{
     position: relative;
     width: 310px;
-    margin: 50px 0;
-    border-bottom: 3px solid #f6f3f4;
+    margin: 30px 0;
+    border-bottom: 2px solid #f5f5f5;
 }
 .input-box label{
     position: absolute;
     top: 50%;
     left: 5px;
     transform: translateY(-60%);
-    font-size: lem;
-    color: rgb(244, 242, 242);
+    font-size: 17px;
+    color: rgb(251, 246, 246);
     pointer-events: none;
     translate: .5s;
 }
@@ -72,42 +74,21 @@ h2{
     border: none;
     outline: none;
     font-size: 1em;
-    color: #fff;
+    color: #fbf7ff;
     padding: 0 35px 0 5px;
 }
 .input-box .icon{
     position: absolute;
     right: 8px;
-    color: #fff;
+    color: #fffdfe;
     font-size: 1.2em;
     line-height: 57px;
-}
-
-.remember-forget{
-    margin: -15px 0 15px;
-    font-size: .9em;
-    color: #fff;
-    display: flex;
-    justify-content:space-between;
-}
-
-.remember-forget label input{
-    margin-right: 3px;
-}
-
-.remember-forget a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.remember-forget a:hover{
-    text-decoration: underline;
 }
 
 button{
     width: 100%;
     height: 40px;
-    background: rgb(6, 221, 46);
+    background: rgb(239, 250, 241);
     border: none;
     outline: none;
     border-radius: 40px;
@@ -119,24 +100,7 @@ button{
 
 button:hover{
     background: #ff7200;
-    color: rgb(12, 12, 12);
-}
-
-.remember-link{
-    font-size: 9em;
-    color: rgb(4, 4, 4);
-    text-align: center;
-    margin: 25px 0 10px;
-   }
-.register-link p a{
-    color: rgb(20, 20, 19);
-    text-decoration: none;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.register-link p a:hover{
-    text-decoration-line: underline;
+    color: #fff;
 }
 @media(max-width:584px){
     .login-box{
@@ -149,8 +113,3 @@ button:hover{
         width: 290px;
     }
 } 
-p{
-    margin: 10px;
-    color: white;
-}
-
