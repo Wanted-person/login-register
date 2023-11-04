@@ -1,62 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="Register.css">
+    <title>Registration Form</title>
+    <link rel="stylesheet"href="Register.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        <div class="tittle"> Registration
+    <section>
+    <div class="Register">
+        <h1>Registration Form</h1>
+        <form action="index.html">
+           <div class="Register">
+            <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
         </div>
-        <form action="#">
-            <div class="User-details">
-                <div class="input-box">
-                    <span class="details">Full Name</span>
-                    <input type="text"placeholder="Enter your Name">
-                </div>
-                <div class="input-box">
-                    <span class="details">User Name</span>
-                    <input type="text"placeholder="Enter your UserName">
-                </div>
-                <div class="input-box">
-                    <span class="details"> Email</span>
-                    <input type="text"placeholder="Enter your Email">
-                </div>
-                <div class="input-box">
-                    <span class="details">Phone Number</span>
-                    <input type="text"placeholder="Enter your Phone Number">
-                </div>
-                <div class="input-box">
-                    <span class="details">password</span>
-                    <input type="password"placeholder="Enter your Password">
-                </div>
-                <div class="input-box">
-                    <span class="details">Conform Password</span>
-                    <input type="password"placeholder=" Conform your Password">
-                </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input type="email" placeholder="Email" required>
+                <i class='bx bxl-gmail'></i>
             </div>
-            <div class="gender-details">
-                <input type="radio"name="gender" id="dot-1">
-                <input type="radio"name="gender" id="dot-2">
-                <span class="gender-title">Gender</span>
-                <div class="category">
-                    <label for="dot-1">
-                        <span class="dot one"></span>
-                        <span class="gender"> Male</span>
-                    </label>
-                    <label for="dot-2">
-                        <span class="dot two"></span>
-                        <span class="gender"> Female</span>
-                    </label>
-                </div>
+            <div class="input-field">
+                <input type="number" placeholder="Phone Number" required>
+                <i class='bx bxs-phone'></i>
             </div>
-            <div class="button">
-                <input type="Submit"value="Register">
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
             </div>
-        </form>
+            <div class="input-field">
+                <input type="password" placeholder="Conform password" required>
+                <i class='bx bxs-lock' ></i>
+            </div>
+           </div>
+           <button type="submit" class="btm">Register</button>
+         </form>
     </div>
+    <section>
 </body>
 </html>
