@@ -44,7 +44,7 @@ section
 }
 h2{
     font-size: 2em;
-    color: rgb(9, 9, 9);
+    color: rgb(245, 228, 228);
     text-align: center;
 }
 .input-box{
@@ -59,7 +59,7 @@ h2{
     left: 5px;
     transform: translateY(-60%);
     font-size:20px;
-    color: rgb(5, 5, 5);
+    color: rgb(240, 232, 232);
     pointer-events: none;
     translate: .5s;
 }
@@ -80,7 +80,7 @@ h2{
 .input-box .icon{
     position: absolute;
     right: 8px;
-    color: #171717;
+    color: #efe4e4;
     font-size: 20px;
     line-height: 57px;
 }
@@ -88,7 +88,7 @@ h2{
 .remember-forget{
     margin: -15px 0 15px;
     font-size: 16px;
-    color: #080808;
+    color: #eedcdc;
     display: flex;
     justify-content:space-between;
 }
@@ -98,7 +98,7 @@ h2{
 }
 
 .remember-forget a{
-    color: #0d0d0d;
+    color: #faefef;
     text-decoration: none;
 }
 
