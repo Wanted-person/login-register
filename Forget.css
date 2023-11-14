@@ -20,7 +20,7 @@ section
     height: 100vh; 
     background-size: cover;
     background-position: center;
-    background-image:url("img1.jpg");
+    background-image:url("bg1.jpg");
     animation: animatebg1 0s linear infinite;
 }
 
