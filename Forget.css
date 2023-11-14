@@ -44,14 +44,14 @@ section
 }
 h2{
     font-size: 2em;
-    color: rgb(255, 244, 244);
+    color: rgb(4, 4, 4);
     text-align: center;
 }
 .input-box{
     position: relative;
     width: 310px;
     margin: 40px 0;
-    border-bottom: 2px solid #f2ecec;
+    border-bottom: 2px solid #080808;
 }
 .input-box label{
     position: absolute;
@@ -59,7 +59,7 @@ h2{
     left: 5px;
     transform: translateY(-60%);
     font-size: 20px;
-    color: rgb(254, 241, 241);
+    color: rgb(1, 1, 1);
     pointer-events: none;
     translate: .5s;
 }
@@ -74,13 +74,13 @@ h2{
     border: none;
     outline: none;
     font-size: 20px;
-    color: #ede2e2;
+    color: #0e0d0d;
     padding: 0 35px 0 5px;
 }
 .input-box .icon{
     position: absolute;
     right: 8px;
-    color: #fefafa;
+    color: #060606;
     font-size: 1.2em;
     line-height: 57px;
 }

@@ -20,7 +20,7 @@ section
     height: 100vh; 
     background-size: cover;
     background-position: center;
-    background-image:url("bg2.jpg");
+    background-image:url("bg5.jpg");
     animation: animatebg1 0s linear infinite;
 }
 
@@ -44,14 +44,14 @@ section
 }
 h2{
     font-size: 2em;
-    color: rgb(9, 9, 9);
+    color: rgb(5, 5, 5);
     text-align: center;
 }
 .input-box{
     position: relative;
     width: 310px;
     margin: 30px 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #0a0a0a;
 }
 .input-box label{
     position: absolute;
@@ -59,7 +59,7 @@ h2{
     left: 5px;
     transform: translateY(-60%);
     font-size:20px;
-    color: rgb(5, 5, 5);
+    color: rgb(12, 12, 12);
     pointer-events: none;
     translate: .5s;
 }
@@ -74,7 +74,7 @@ h2{
     border: none;
     outline: none;
     font-size: 1em;
-    color: #0a0a0a;
+    color: #e8dede;
     padding: 0 35px 0 5px;
 }
 .input-box .icon{
