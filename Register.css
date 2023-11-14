@@ -59,7 +59,7 @@ h2{
     left: 5px;
     transform: translateY(-60%);
     font-size:20px;
-    color: rgb(12, 12, 12);
+    color: rgb(212, 203, 203);
     pointer-events: none;
     translate: .5s;
 }
